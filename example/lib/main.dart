@@ -104,10 +104,10 @@ class _ExampleChartState extends State<ExampleChart> {
         ),
         size: const Size(400, 400),
         data: _chartData,
-        scripts: const [
-          "https://code.highcharts.com/highcharts.js",
-          'https://code.highcharts.com/modules/networkgraph.js',
-          'https://code.highcharts.com/modules/exporting.js',
+        scripts: [
+          Uri.parse("https://code.highcharts.com/highcharts.js"),
+          Uri.parse('https://code.highcharts.com/modules/networkgraph.js'),
+          Uri.parse('https://code.highcharts.com/modules/exporting.js'),
         ],
       ),
     );

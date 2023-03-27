@@ -93,7 +93,7 @@ class HighCharts extends StatefulWidget {
   ///</head>
   ///```
   ///
-  final List<String> scripts;
+  final List<Uri> scripts;
   @override
   _HighChartsState createState() => _HighChartsState();
 }

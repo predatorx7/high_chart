@@ -1,3 +1,4 @@
+// ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html;
 import 'dart:math';
 import 'dart:ui' as ui;
@@ -99,7 +100,7 @@ class HighCharts extends StatefulWidget {
   ///</head>
   ///```
   ///
-  final List<String> scripts;
+  final List<Uri> scripts;
   @override
   _HighChartsState createState() => _HighChartsState();
 }
